@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.1.5</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<groupId>com.api</groupId>
+	<artifactId>ms.shop</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ms.shop</name>
+	<description>Project</description>
+	<packaging>pom</packaging>
+
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+
+	<modules>
+		<module>module.gateway</module>
+		<module>module.authenticated</module>
+		<module>module.image</module>
+		<module>module.customer</module>
+		<module>module.product</module>
+		<module>module.order</module>
+		<module>module.cart</module>
+		<module>module.blog</module>
+		<module>module.infoweb</module>
+	</modules>
+
+</project>
